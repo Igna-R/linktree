@@ -76,10 +76,10 @@ nav a {
   background: transparent;
   transition: .4s;
   color: black;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
   width: 100%;
   display: flex;
-  align-content: center;
+  align-items: center;
   gap: 12px;
   justify-content: center;
 }
