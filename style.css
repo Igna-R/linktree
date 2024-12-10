@@ -43,7 +43,7 @@ section {
 
 .profile {
   border-radius: 50%;
-  border: 2px solid #eeeee8;
+  border: 6px solid #eeeee8;
   position: relative;
   height: 150px;
   width: 150px;
@@ -93,5 +93,11 @@ nav a:hover {
 nav a i {
   height: 12px;
   width: auto;
+}
+
+@media and (max-width: 480px) {
+  nav a {
+    padding: 24px 5%;
+  }
 }
 
