@@ -78,7 +78,10 @@ nav a {
   color: black;
   margin-bottom: 24px;
   width: 100%;
-  display: block:
+  display: flex;
+  align-content: center;
+  gap: 12px;
+  justify-content: center;
 }
 
 nav a:hover {
