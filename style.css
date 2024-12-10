@@ -38,6 +38,7 @@ a {
 section {
   max-width: 1600px;
   padding: 48px 5%;
+  width: 100%;
 }
 
 .profile {
@@ -46,13 +47,15 @@ section {
   position: relative;
   height: 150px;
   width: 150px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .profile img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-505%, -50%);
+  transform: translate(-50%, -50%);
   max-height: 150px;
   max-width: 150px;
 }
@@ -62,6 +65,7 @@ nav {
   max-width: 400px;
   width: 100%;
   margin: 0 auto;
+  display: block;
 }
 
 nav a {
@@ -73,6 +77,8 @@ nav a {
   background: transparent;
   transition: .4s;
   color: black;
+  margin-bottom: 24px;
+  width: 100%;
 }
 
 nav a:hover {
@@ -81,7 +87,7 @@ nav a:hover {
   color: #f7f7f4;
 }
 
-nav a span {
+nav a i {
   height: 12px;
   width: auto;
 }
